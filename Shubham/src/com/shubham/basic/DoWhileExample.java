@@ -13,11 +13,11 @@ public class DoWhileExample {
 		 * increment/decrement;
 		 * }while(condition);
 		 */
-		
-		int i = 10;
+		//print 1 to 10
+		int i = 1;
 		do {
 			System.out.print(i+" ");
-			i--;
-		}while(i >= 1);
+			i++;
+		}while(i <= 10);
 	}
 }

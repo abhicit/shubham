@@ -13,11 +13,11 @@ public class WhileLoopExample {
 		 * }
 		 */
 		
-		//print 1 to 10
+		//print 10 to 1
 		int i = 10;
 		while(i >= 1) {
-			System.out.print(i+" ");
-			i--;
+			System.out.println(i);
+			i = i-2;
 		}
 	}
 }
